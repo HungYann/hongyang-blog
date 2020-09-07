@@ -1,0 +1,68 @@
+# Site settings
+title: ·快乐的皮卡丘呦呦·
+SEOTitle: 太阳以西
+header-img: img/bg/海贼王.jpg
+email: 1664698982@qq.com
+description: "Become stronger"
+keyword: ""
+url: "https://LIU-HONGYANG.github.io"              # your host, for absolute URL
+baseurl: "/hongyang-blog"                            # for example, '/blog' if your blog hosted on 'host/blog'
+
+# 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
+favicon: https://tva1.sinaimg.cn/large/00831rSTgy1gd451u9balj30f60ce75w.jpg
+
+
+# SNS settings
+#douban_username: 138483825
+#weibo_username: jsksxs360
+#zhihu_username: jsksxs360
+github_username: liu-hongyang
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+# Plugins
+plugins: [jekyll-paginate]
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+# Livere
+labili: false                           # whether or not using Livere
+labili_uid: MTAyMC80MjI1Ny8xODgwNA==    # data uid
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 07529a93af5fa9f808261a1318c3aba4
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "Stay Hungry, Stay Foolish"
+sidebar-avatar: /hongyang-blog/img/avatar-xs.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+# Friends
+#friends: [
+#    {
+#        title: "Hux Blog",
+#        href: "http://huangxuan.me"
+#    },
+#    {
+#        title: "Xs blog",
+#        href: "http://xiaosheng.me"
+#    }
+#]
